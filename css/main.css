@@ -255,7 +255,8 @@ Header
 	#banner p {
 		width: 80%; 
 		color: #000;
-		text-shadow: #444 2px 4px 6px;line-height: 1.7;
+		text-shadow: #444 2px 4px 6px;
+		line-height: 1.7;
 	}
 	.banner .contact-us-btn {
 		font-size: 18px;
