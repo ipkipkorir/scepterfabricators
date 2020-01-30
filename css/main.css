@@ -208,6 +208,9 @@ Main styling
 	padding: 10px 0;
 }
 
+/*****************************
+Products section
+******************************/
 #products {
 	display: flex;
 	flex-direction: column;
@@ -216,15 +219,19 @@ Main styling
 	display: flex;
 	flex-direction: row; 
 	margin-bottom: 40px;
+	margin-top: 20px;
+
+}
+#products .box-products .product-img {
+	margin: 40px; border: 
 }
 #products img {
-	width: 35%;
-	height: auto; 
+	width: 80%; 
 	box-shadow: 2px 4px 8px #444;
 }
 #products .product-content {
 	margin: 20px;
-	width: 40%;
+	width: 75%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -257,7 +264,9 @@ Main styling
 	justify-content: center;
 }
 #products [safety-structures] h1,
-#products [safety-structures] button {
+#products [safety-structures] button,
+#products [full-attention] h1,
+#products [full-attention] button {
 	color: #ffd700; 
 	font-weight: bold; 
 	text-shadow: 2px 4px 8px #000; 
@@ -266,7 +275,80 @@ Main styling
 	background: #444;
 	color: #ffd700;
 }
+#products .product-content img {
+		display: none;
+}
+#products .row-reversed {
+	display: flex;
+	flex-direction: row-reverse;
+}
 
+/***********************
+bottom section
+***********************/
+#bottom {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+#bottom .core-values-header {
+	border-bottom: 2px #777 solid;
+	width: 80%;
+	margin: 0 auto;
+}
+#bottom .core-values-header h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	color: #000;
+}
+#bottom .core-values {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: center;
+}
+#bottom .box-bottom {
+	width: 25%;
+	margin: 20px 40px;
+	text-align: center;
+	box-shadow: 2px 4px 8px #000; 
+}
+#bottom .box-bottom h1 {
+	font-size: 2em;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+	text-shadow: 2px 4px 8px #000; 
+	font-family: Century schoolbook;
+}
+.core-values .maroon {
+	background-color: #330000;
+	color: #fff;
+}
+.core-values .red {
+	background-color: #970000;
+	color: #fff;
+}
+.core-values .blue {
+	background-color: #306777;
+	color: #fff;
+}
+.core-values .green {
+	background-color: #008700;
+	color: #fff;
+}
+.core-values .orange {
+	background-color: orange;
+	color: #fff;
+}
+.core-values .gold {
+	background-color: gold;
+	color: #fff;
+}
+.core-values .grey {
+	background-color: #ccc;
+	color: #fff;
+}
 
 /**********************
 Footer styling
@@ -354,7 +436,7 @@ Header
 	}
 
 	#main .container-main {
-		height: 200vh;	
+		min-height: 200vh;	
 		width: 100%;
 	}
 	#showcase {
@@ -367,6 +449,45 @@ Header
 		box-shadow: none;
 		margin: 10px;
 	}
+/***************************
+****************************/
+	#products img {
+		width: 100%; 
+		margin: 0; 
+	}
+	#products .box-products {
+		display: flex;
+		flex-direction: column; 
+		width: 100%; 
+		
+	}
+	#products .product-content {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	#products .product-content h1,
+	#products .product-content p {
+		width: 90%;
+	}
+	#products .product-content button {
+		width: 50%; 
+		border-radius: 8px;
+	}
+
+/***********************************
+bottom section
+*********************************/
+	#bottom .core-values {
+		display: flex;
+		flex-direction: column;
+	}
+	#bottom .box-bottom {
+		width: 100%;
+	}
+/********************************
+Footer 
+*********************************/
 
 	#footer {
 		min-height: 100vh;
