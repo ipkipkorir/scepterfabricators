@@ -37,3 +37,35 @@
 .contact-text p {
 	padding: 20px;
 }
+
+/****************************
+For devices upto 768px width
+*****************************/
+@media all and (max-width: 768px) {
+	#contact-main {
+		width: 100%;
+	}
+	#contact-main-section {
+		width: 100%;
+	}
+	.contact-main-content h1 {
+		padding: 10px;
+		font-size: 1.4em;
+	}
+	.contact-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.contact-img img {
+		width: 100%;
+	}
+	.contact-text {
+		width: 100%;
+	}
+	.contact-text p {
+		padding: 10px;
+		text-align: center;
+	}
+}
