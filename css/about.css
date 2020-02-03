@@ -10,7 +10,6 @@
 #about-main-section {
 	display: flex;
 	flex-direction: column;
-	border: 1px #111 solid;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -27,9 +26,7 @@
 }
 #sidebar {
 	margin-right: 20px;
-	margin-left: 20px;
-	background-color: #f4f4f4; 
-	background: #fff;
+	margin-left: 20px; 
 }
 .about-social-links {
 	display: flex;
@@ -48,4 +45,14 @@
 }
 #sidebar img:hover {
 	width: 45px;
+}
+
+
+/************************************
+Mdeia queries - upto 768px of width
+*************************************/
+@media all and (max-width: 768px) {
+	#sidebar {
+		display: none;
+	}
 }
