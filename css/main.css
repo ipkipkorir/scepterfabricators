@@ -481,9 +481,13 @@ bottom section
 	#bottom .core-values {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 	}
 	#bottom .box-bottom {
-		width: 100%;
+		width: 90%;
+		margin-right: auto; 
+		margin-left: auto;
+		font-size: 0.8em;
 	}
 /********************************
 Footer 
