@@ -106,7 +106,8 @@ Header
 	color: #fff;
 	border-radius: 5px 5px 0 0;
 }
-#nav-bar .icon-menu {
+.icon-menu,
+#nav-bar .close-menu {
 	display: none;
 }
 
@@ -395,15 +396,12 @@ Footer styling
 
 /*****************************
 Media query: Less than 768px;
-Header
 *****************************/
 @media all and (max-width: 768px) {
-	#nav-bar .icon-menu {
-		display: block;
+		.container-header {
+		width: 98%;
 	}
-	#nav-bar a {
-		display: none;
-	}
+
 	/*Corporate name*/
 	[corporate-name] h4 {
 		display: none;
@@ -507,3 +505,4 @@ Footer
 		margin: 10px auto;
 	}
 }
+
