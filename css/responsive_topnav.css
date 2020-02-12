@@ -23,7 +23,7 @@ Media query: Less than 768px;
 		position: fixed;
 		top: 100px;
 		z-index: 4; 
-		background: rgb(0,0,0,0.9);
+		background: rgb(67,67,67,0.9);
 	}
 	#nav-bar a {
 		align-items: flex-start;
@@ -45,6 +45,7 @@ Media query: Less than 768px;
 		padding: 0 15px; 
 		background: none;
 		color: #306777;
+		border: none;
 	}
 	/**********************************************************************
 	end upto 600px media query
