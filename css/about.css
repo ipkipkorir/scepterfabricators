@@ -55,4 +55,7 @@ Mdeia queries - upto 768px of width
 	#sidebar {
 		display: none;
 	}
+	#about-main {
+		width: 98%;
+	}
 }
