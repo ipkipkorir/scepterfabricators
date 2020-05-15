@@ -12,6 +12,7 @@ function openNav() {
 function closeNav() {
 	var hide_nav_bar = document.getElementById("nav-bar");
 	hide_nav_bar.style.display = "none";
+
 	var show_icon_menu = document.getElementById("icon-menu");
 	show_icon_menu.style.display = "flex";
 }
