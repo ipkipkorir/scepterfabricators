@@ -1,0 +1,107 @@
+USSD menu for farmer
+=================
+# Add product
+- category
+- product name
+- quantity
+- unit price
+- Minimum order
+
+**API endpoint for adding a new product**
+
+`POST /products`
+
+**Arguments**
+- `"name":string` name of the product
+- `"category":string` category that the product belong to
+- `"price":string` unit price of the product
+- `"description":string` description of the product 
+
+**Response**
+- `201 Created` on success
+
+```json
+{
+	"name": "banana",
+	"category": "fruits",
+	"price": "200",
+	""description: "Green bananas"
+}
+```
+## List all categories of products
+
+**API endpoint for getting all categories**
+
+`GET /products/categories`
+
+# See products categories
+- grains
+- fruits
+- vegetables
+- poultry
+- dairy
+
+**Response**
+
+- `200 OK` on success
+
+```json
+{
+	`"name": "fruits"`,
+	`"description": all fruits`
+}
+```
+
+# Account seetings
+- change phone
+- change address
+- exit
+# Learn how to be better farmer
+## Crop farming:
+	- maize farming
+	- bean farming
+	- vegetable farming
+	- fruit farming
+		- avocado
+		- macademia
+		- mango
+		- groundnut
+## Animal farming
+	- dairy
+	- meat
+	- poultry
+	- pig
+	- goat
+	- sheep
+
+USSD menu for buyer
+===================
+# See farm products
+## grains:
+	- maize
+	- beans
+	- wheat
+	- green grams
+	- millet
+	- sorgham
+## fruits:
+	- bananas
+	- avocado
+	- mangoes
+	- oranges
+	- water melon
+	- pineapples
+## vegetables:
+	- sukuma wiki
+	- spinach
+	- cabbages
+	- bulb onions
+	- tomatoes
+## poultry:
+	- eggs
+	- chicken
+	- broilers
+## dairy:
+	- cow milk
+	- goat milk
+	- camel milk
