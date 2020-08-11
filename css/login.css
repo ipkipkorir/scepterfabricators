@@ -1,0 +1,89 @@
+/*GLOBAL*/
+* {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: auto auto;
+	background: #fff;
+	
+}
+.container {
+	margin: 5% auto auto;
+	width: 30%;
+	height: 80vh;
+	padding: 0px 4px;
+	box-shadow: 2px 4px 6px 8px #777;
+	background: #f3f3f3;
+	border-radius: 15px;
+}
+.login-header {
+	width: 100%;
+	margin: 0px auto 30px;
+	color: #333;
+	text-align: center;
+	border: 0px;
+}
+.login-header > img {
+	margin-top: 0;
+	width: 30%;
+	height: auto;border: 3px #ccc solid;
+}
+.login-header > h2 {
+	font-size: 22px; 
+	padding: 8px;
+	border: 0px; 
+	margin-top: 14px;
+}
+
+form {
+	width: 95%;
+	margin: 8px auto;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+.input-group {
+	margin: 20px 0 28px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-size: 18px;
+	color: #555;
+	padding: 4px;
+	font-weight: bold;
+}
+.input-group input {
+	height: 40px;
+	width: 90%;
+	padding: 8px 6px;
+	font-size: 15px;
+	border: 1.5px solid #ccc;
+	border-radius: 5px;
+}
+.btn {
+	padding: 8px 6px;
+	font-size: 18px;
+	color: #fff;
+	border: none; 
+	background: green;
+	border-radius: 5px;
+	width: 25%;
+}
+.btn:hover {
+	cursor: pointer;
+	font-size: 22px;
+	width: 30%;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+	.container {
+		width: 90%;
+		
+	}
+}
